@@ -1,0 +1,7 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=db;dbname=mslaviacz_main'
+	user: mslaviacz_system
+	password: a9291566f8c01201c424a2055d7385b5

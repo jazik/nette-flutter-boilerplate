@@ -1,0 +1,30 @@
+https://doc.nette.org/cs/quickstart/single-post
+https://github.com/nette/tutorial-quickstart/blob/v3.1/app/Presenters/PostPresenter.php
+http://localhost:8080/?server=db&username=test
+https://www.adminer.org/
+https://hub.docker.com/_/mysql
+https://hub.docker.com/_/adminer
+http://localhost/
+
+https://doc.nette.org/en/utils/json
+https://www.php.net/manual/en/function.isset.php
+https://www.php.net/manual/en/function.array-key-exists.php
+https://doc.nette.org/en/http/response
+https://doc.nette.org/en/http/request
+https://restfulapi.net/http-methods/
+https://github.com/novotnyj/http/commit/0e68551bc18b22c4e587180483cc3eed436511b4
+https://reqbin.com/req/c-dwjszac0/curl-post-json-example
+https://stackoverflow.com/questions/38906626/curl-to-return-http-status-code-along-with-the-response
+https://github.com/contributte/api-router/tree/master/.docs
+https://doc.nette.org/en/database/explorer
+
+curl -o /dev/null -s -w "%{http_code}\n" -X POST localhost/api/create -H 'Content-Type: application/json' -d '{"title":"My title","content":"This is a content"}'
+curl localhost/api/list
+
+curl -v -X POST localhost/api/login -H 'Content-Type: application/json' -d '{"username":"admin","password":"secret"}'
+curl --cookie "PHPSESSID=8612lfd1kcsh4hjjle7c8h7l3n" -X POST localhost/api/create -H 'Content-Type: application/json' -d '{"title":"My title","content":"This is a content"}'
+curl --cookie "PHPSESSID=8612lfd1kcsh4hjjle7c8h7l3n" localhost/api/login
+
+https://forum.nette.org/cs/27299-ujasneni-rest-api-auth-v-nette
+https://doc.nette.org/en/security/authentication
+https://doc.nette.org/cs/http/sessions

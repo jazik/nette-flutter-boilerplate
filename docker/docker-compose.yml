@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+    www:
+        container_name: www
+        image: dockette/web:php-81
+        depends_on:
+            - db
+        volumes:
+            - ../.:/srv
+        ports:
+            - 80:80
+    db:
+        container_name: db
+        image: mysql:5
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: test
+            MYSQL_DATABASE: quickstart
+            MYSQL_USER: test
+            MYSQL_PASSWORD: test
+        ports:
+            - 3306:3306
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - 8080:8080
