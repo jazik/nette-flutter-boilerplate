@@ -28,3 +28,25 @@ curl --cookie "PHPSESSID=8612lfd1kcsh4hjjle7c8h7l3n" localhost/api/login
 https://forum.nette.org/cs/27299-ujasneni-rest-api-auth-v-nette
 https://doc.nette.org/en/security/authentication
 https://doc.nette.org/cs/http/sessions
+
+Flutter
+https://docs.flutter.dev/get-started/install/linux#install-android-studio
+https://developer.android.com/studio#downloads
+- command-line tools
+https://stackoverflow.com/questions/52256569/android-sdkmanager-tool-not-found
+- move to ~/Android/Sdk/.
+
+https://stackoverflow.com/questions/72256332/emulator-process-terminated-how-do-i-get-android-studio-emulators-to-run
+
+- delete manually installed command-line tools and install those from the android studio interface
+
+/home/honzik/Android/Sdk/emulator/emulator -avd Pixel_2_API_31 -gpu swiftshader_indirect
+- or change settings in the emulator when started
+https://stackoverflow.com/questions/72256332/emulator-process-terminated-how-do-i-get-android-studio-emulators-to-run
+
+https://docs.flutter.dev/get-started/test-drive
+https://docs.flutter.dev/cookbook/networking/fetch-data
+https://pub.dev/packages/http/install
+https://jsonplaceholder.typicode.com/albums/1
+https://stackoverflow.com/questions/47372568/how-to-point-to-localhost8000-with-the-dart-http-package-in-flutter
+
